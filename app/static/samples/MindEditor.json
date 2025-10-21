@@ -1,0 +1,148 @@
+{
+  "mindMap": [
+    {
+      "x": 674,
+      "y": 159.5,
+      "name": "MindEditor",
+      "color": "#9ed56b",
+      "nodes": [
+        {
+          "x": 879,
+          "y": 158.5,
+          "name": "Server",
+          "joint": 1,
+          "color": "#67d7c4",
+          "nodes": [
+            {
+              "x": 1015,
+              "y": 98.5,
+              "name": "Static content",
+              "color": "#67d7c4",
+              "nodes": [
+                {
+                  "x": 1110,
+                  "y": 66.5,
+                  "name": "Frontend",
+                  "color": "#67d7c4",
+                  "nodes": []
+                },
+                {
+                  "x": 1111.1370849898476,
+                  "y": 98.63708498984761,
+                  "name": "Samples maps",
+                  "color": "#67d7c4",
+                  "nodes": []
+                },
+                {
+                  "x": 1112.1370849898476,
+                  "y": 129.6370849898476,
+                  "name": "Help map",
+                  "color": "#67d7c4",
+                  "nodes": []
+                }
+              ]
+            },
+            {
+              "x": 1019.1370849898476,
+              "y": 210.6370849898476,
+              "name": "Rest API",
+              "color": "#67d7c4",
+              "nodes": [
+                {
+                  "x": 1118.1370849898476,
+                  "y": 195.6370849898476,
+                  "name": "getMindMap",
+                  "color": "#67d7c4",
+                  "nodes": []
+                },
+                {
+                  "x": 1117.2741699796952,
+                  "y": 239.77416997969522,
+                  "name": "setMindMap",
+                  "color": "#67d7c4",
+                  "nodes": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "x": 472,
+          "y": 159.5,
+          "name": "Client",
+          "joint": 3,
+          "color": "#efa670",
+          "nodes": [
+            {
+              "x": 370,
+              "y": 111.50000000000006,
+              "name": "Links and pictures on branch",
+              "joint": 3,
+              "color": "#efa670",
+              "nodes": []
+            },
+            {
+              "x": 370.22330470336317,
+              "y": 197.27669529663694,
+              "name": "Presentaion mode",
+              "joint": 3,
+              "color": "#efa670",
+              "nodes": []
+            },
+            {
+              "x": 370.22330470336306,
+              "y": 154.72330470336317,
+              "name": "Fully customizable style",
+              "joint": 3,
+              "color": "#efa670",
+              "nodes": []
+            }
+          ]
+        },
+        {
+          "x": 765,
+          "y": 291.5,
+          "name": "Other",
+          "joint": 2,
+          "color": "#988ee3",
+          "nodes": [
+            {
+              "x": 867,
+              "y": 337.5,
+              "name": "Versions",
+              "joint": 2,
+              "color": "#988ee3",
+              "nodes": [
+                {
+                  "x": 943,
+                  "y": 311.5,
+                  "name": "Progressive Web App",
+                  "joint": 2,
+                  "color": "#988ee3",
+                  "nodes": []
+                },
+                {
+                  "x": 941.2233047033633,
+                  "y": 344.27669529663694,
+                  "name": "Electron",
+                  "joint": 2,
+                  "color": "#988ee3",
+                  "nodes": []
+                },
+                {
+                  "x": 942.2233047033633,
+                  "y": 376.27669529663694,
+                  "name": "Native",
+                  "joint": 2,
+                  "color": "#988ee3",
+                  "nodes": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "editorSetings": {}
+}

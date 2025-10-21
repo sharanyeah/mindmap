@@ -1,0 +1,74 @@
+{
+  "mindMap": [
+    {
+      "x": 683,
+      "y": 312,
+      "name": "MindEditor",
+      "color": "#7aa3e5",
+      "nodes": [
+        {
+          "x": 939,
+          "y": 345,
+          "name": "Open mind map",
+          "joint": 1,
+          "color": "#988ee3",
+          "nodes": [
+            {
+              "x": 983,
+              "y": 366,
+              "name": "Open file",
+              "color": "#988ee3",
+              "nodes": [],
+              "action": "open"
+            },
+            {
+              "x": 981,
+              "y": 324,
+              "name": "Open remote",
+              "color": "#988ee3",
+              "nodes": [],
+              "action": "open-remote"
+            }
+          ],
+          "action": "open"
+        },
+        {
+          "x": 940,
+          "y": 273,
+          "name": "New mind map",
+          "joint": 1,
+          "color": "#67d7c4",
+          "nodes": [],
+          "action": "new"
+        },
+        {
+          "x": 435,
+          "y": 351,
+          "name": "Help",
+          "joint": 3,
+          "color": "#e68782",
+          "nodes": [],
+          "action": "help"
+        },
+        {
+          "x": 433,
+          "y": 272,
+          "name": "Samples",
+          "joint": 3,
+          "color": "#ebd95f",
+          "nodes": [],
+          "action": "samples"
+        },
+        {
+          "x": 746,
+          "y": 430,
+          "name": "GitHub",
+          "joint": 2,
+          "color": "#9ed56b",
+          "nodes": [],
+          "action": "git"
+        }
+      ]
+    }
+  ]
+}

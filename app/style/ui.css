@@ -1,0 +1,250 @@
+.tlaloc-menu-bar
+{
+width: auto;
+border-bottom: none;
+display: flex;
+flex-direction: column;
+gap: 0.5em;
+}
+
+.tlaloc-menu
+{
+display: block;
+position: relative;
+width: 100%;
+}
+
+.tlaloc-menu-item
+{
+position: relative;
+}
+
+.tlaloc-menu-button
+{
+background: var(--bg-tertiary);
+padding: 0.75em 1em;
+font-family: var(--main-font-family);
+font-size: 1em;
+font-weight: 500;
+user-select: none;
+transition: all 0.2s ease;
+}
+
+.tlaloc-menu-button.submenu
+{
+display: grid;
+grid-template-rows: 1fr;
+grid-template-columns: auto 1fr;
+}
+
+.tlaloc-menu-button.submenu > .text::after
+{
+content: "● ";
+padding-left: 0.5em;
+color: #00000000;
+}
+
+.tlaloc-menu-button-check,
+.tlaloc-menu-button-check::before,
+.tlaloc-menu-button-check::after
+{
+display: none !important;
+visibility: hidden !important;
+opacity: 0 !important;
+width: 0 !important;
+height: 0 !important;
+margin: 0 !important;
+padding: 0 !important;
+content: '' !important;
+}
+
+.tlaloc-menu-bar .tlaloc-menu-button-check
+{
+display: none !important;
+}
+
+.checked, .unchecked
+{
+display: none !important;
+}
+
+.tlaloc-menu-button:hover
+{
+background: var(--bg-hover);
+cursor: pointer;
+}
+
+.tlaloc-menu-list
+{
+display: none;
+position: absolute;
+top: 100%;
+left: 0;
+margin-top: 0.3em;
+border: 1px solid var(--border-color);
+background: var(--bg-secondary);
+grid-template-columns: max-content;
+box-shadow: 0 4px 6px rgb(0 0 0 / 40%);
+}
+
+.tlaloc-separator
+{
+border-bottom: 1px solid #404040;
+}
+
+.tlaloc-sub-menu-list
+{
+display: none;
+position: absolute;
+top: 0;
+left: 100%;
+margin-left: 0.3em;
+border: 1px solid #404040;
+grid-template-columns: max-content;
+}
+
+.tlaloc-menu-button.selected
+{
+background: #3d3d3d;
+}
+
+.tlaloc-menu-button.disabled
+{
+color: #666;
+}
+
+.tlaloc-menu-button.disabled:hover
+{
+background: #2d2d2d;
+}
+
+.tlaloc-menu-button-arrow::before
+{
+content: "▶";
+color: #999;
+}
+
+.tlaloc-menu-button.hotkey, .tlaloc-menu-button.right-arrow
+{
+grid-template-columns: auto 1fr auto;
+}
+
+.tlaloc-menu-button-hotkey
+{
+color: #999;
+}
+
+.tlaloc-menu-button-check::before
+{
+content: "●";
+padding-right: 0.5em;
+}
+
+.tlaloc-menu-button-check.tlaloc-none
+{
+color: #00000000;
+}
+
+.tlaloc-menu-button-check.unchecked
+{
+color: rgb(100, 100, 100);
+}
+
+.tlaloc-menu-button-check.checked
+{
+color: #e0e0e0;
+}
+
+.tlaloc-context-menu
+{
+display: none;
+position:absolute;
+top: 0;
+left: 0;
+border: 1px solid #404040;
+grid-template-columns: max-content;
+}
+
+
+.tlaloc-tab
+{
+display:inline-block;
+background: var(--bg-secondary);
+padding: 0.5em 0.75em;
+font-family: var(--main-font-family);
+font-size: 1em;
+font-weight: 500;
+cursor:pointer;
+user-select: none;
+transition: all 0.2s ease;
+}
+
+.tlaloc-tab:hover
+{
+background: var(--bg-hover);
+}
+
+.tlaloc-tab.active
+{
+background: var(--accent-color);
+color: white;
+}
+
+
+.tlaloc-dialog-cont
+{
+display: none;
+position: absolute;
+top: 0;
+left: 0;
+grid-template-rows: auto 1fr;
+grid-template-columns: max-content;
+border: 1px solid #404040;
+box-sizing: border-box;
+}
+
+.tlaloc-dialog-head
+{
+position: relative;
+background: #4DB6AC;
+border-bottom: 1px solid #404040;
+user-select: none;
+text-align: center;
+padding: 0.2em 1.5em;
+}
+
+.tlaloc-dialog-head-title
+{
+display: inline-block;
+
+}
+
+.tlaloc-dialog-head-controls
+{
+display: inline-block;
+position: absolute;
+top: 0;
+left: 0;
+padding: 0.2em 0.3em;
+}
+
+.tlaloc-dialog-head-controls-close
+{
+color: white;
+background: orange;
+cursor: pointer;
+width: 1em;
+height: 1em;
+border-radius: 50%;
+}
+
+.tlaloc-dialog-head-controls-close::before
+{
+content: '';
+}
+
+.tlaloc-dialog-main
+{
+background: var(--bg-secondary);
+padding: 1em;
+}

@@ -1,0 +1,54 @@
+{
+  "name": "mindeditor",
+  "version": "1.0.0",
+  "description": "Mind map editor",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV='production' webpack",
+    "dev": "webpack-dev-server",
+    "server": "node server/index.js",
+    "start": "npm run server & npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entagir/mindeditor.git"
+  },
+  "author": "entagir",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/entagir/mindeditor/issues"
+  },
+  "homepage": "https://github.com/entagir/mindeditor#readme",
+  "devDependencies": {
+    "@babel/core": "^7.26.9",
+    "babel-loader": "^8.4.1",
+    "clean-webpack-plugin": "^4.0.0",
+    "copy-webpack-plugin": "^10.2.4",
+    "css-loader": "^6.11.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3",
+    "mini-css-extract-plugin": "^2.9.2",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.27.1",
+    "autoprefixer": "^10.4.21",
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1",
+    "postcss": "^8.5.6",
+    "postcss-loader": "^8.2.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tailwindcss": "^4.1.14",
+    "uuid": "^10.0.0"
+  }
+}
