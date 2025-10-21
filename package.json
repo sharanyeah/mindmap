@@ -4,7 +4,8 @@
   "description": "Mind map editor",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_ENV='production' webpack",
+    "preinstall": "npm install --save-dev webpack-cli",
+    "build": "npx webpack-cli --mode production",
     "dev": "webpack-dev-server",
     "server": "node server/index.js",
     "start": "npm run server & npm run dev",
