@@ -2,7 +2,7 @@ const express = require('express');
 const MindMap = require('../models/MindMap');
 const authMiddleware = require('../middleware/auth');
 
-const router = express.Router();
+const router = require('express').Router();
 
 router.get('/', authMiddleware, async (req, res) => {
   try {
